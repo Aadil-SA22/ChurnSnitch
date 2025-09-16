@@ -1,19 +1,29 @@
+<div id="hero">
+  <p align="center" dir="auto">
+      <a>
+        <img src="Images/Screenshot 2025-09-16 234612.png" alt="ChurnSnitch logo" width="300" height="320" style="max-width: 100%;">
+      </a>
+    </p>
+    <p align="center" dir="auto">
+     Spot the drop. Save the stay. Predict the play.
+      <br>
+    </p>
+    <hr />
+</div>
 # ChurnSnitch
-Spot the drop. Save the stay. Predict the play.
 
-App: https://churn-prediction-app.herokuapp.com/
 
-Overview
+
 ChurnSnitch is a smart web app that predicts customer churn and analyzes customer survival patterns using machine learning and survival analysis. It helps businesses identify which customers are likely to leave, why they might churn, and how much value they bring over time.
 Industries like telecom, insurance, and subscription services rely heavily on customer retention. ChurnSnitch empowers them to act before customers drop off — saving revenue and boosting loyalty.
 
 Telephone service companies, Internet service providers, pay TV companies, insurance firms, and alarm monitoring services, often use customer attrition analysis and customer attrition rates as one of their key business metrics because the cost of retaining an existing customer is far less than acquiring a new one. Companies from these sectors often have customer service branches which attempt to win back defecting clients, because recovered long-term customers can be worth much more to a company than newly recruited clients.
 
-Predictive analytics use churn prediction models that predict customer churn by assessing their propensity of risk to churn. Since these models generate a small prioritized list of potential defectors, they are effective at focusing customer retention marketing programs on the subset of the customer base who are most vulnerable to churn.
+ChurnSnitch use churn prediction models that predict customer churn by assessing their propensity of risk to churn. Since these models generate a small prioritized list of potential defectors, they are effective at focusing customer retention marketing programs on the subset of the customer base who are most vulnerable to churn.
 
 In this project I aim to perform customer survival analysis and build a model which can predict customer churn. I also aim to build an app which can be used to understand why a specific customer would stop the service and to know his/her expected lifetime value.  
 
-## Final Customer Churn Prediction App
+## Final ChurnSnitch
 <img src=https://github.com/archd3sai/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/app-pic.png>
 
 ## Project Organization
@@ -42,7 +52,7 @@ In this project I aim to perform customer survival analysis and build a model wh
 └── README.md                           : Report
 ```
 
-## Customer Survival Analysis
+## ChurnSnitch - Customer Survival Analysis
 
 **Survival Analysis:** 
 Survival analysis is generally defined as a set of methods for analyzing data where the outcome variable is the time until the occurrence of an event of interest. The event can be death, occurrence of a disease, marriage, divorce, etc. The time to event or survival time can be measured in days, weeks, years, etc.
@@ -225,12 +235,8 @@ We can explain and understand the Random forest model using explainable AI modul
 3. Shap values (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. In below plot we can see that why a particual customer's churning probability is less than baseline value and which features are causing them.
 
 ![](https://github.com/archd3sai/Customer-Churn-Analysis-and-Prediction/blob/master/Images/shap.png)
+ 
 
-## Flask App
-
-I saved the final tuned Random Forest model and deployed it using Flask web app. Flask is a micro web framework written in Python.  It is designed to make getting started quick and easy, with the ability to scale up to complex applications. I saved the shap value explainer tuned using random forest model to show shap plots in app. I have also utilized the cox-proportional hazard model to show survival curve and hazard curve, and to calculate expected customer lifetime value. 
-
-The final app shows churning probability, gauge chart of how severe a customer is and shap values based on customer's data. The final app layout can be seen above.  
 
 
 
