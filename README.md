@@ -1,8 +1,12 @@
-# Customer Survival Analysis and Churn Prediction
+<img src=https://github.com/archd3sai/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/app-pic.png>
+# ChurnSnitch
+Spot the drop. Save the stay. Predict the play.
 
 App: https://churn-prediction-app.herokuapp.com/
 
-Customer attrition, also known as customer churn, customer turnover, or customer defection, is the loss of clients or customers.
+Overview
+ChurnSnitch is a smart web app that predicts customer churn and analyzes customer survival patterns using machine learning and survival analysis. It helps businesses identify which customers are likely to leave, why they might churn, and how much value they bring over time.
+Industries like telecom, insurance, and subscription services rely heavily on customer retention. ChurnSnitch empowers them to act before customers drop off — saving revenue and boosting loyalty.
 
 Telephone service companies, Internet service providers, pay TV companies, insurance firms, and alarm monitoring services, often use customer attrition analysis and customer attrition rates as one of their key business metrics because the cost of retaining an existing customer is far less than acquiring a new one. Companies from these sectors often have customer service branches which attempt to win back defecting clients, because recovered long-term customers can be worth much more to a company than newly recruited clients.
 
@@ -228,6 +232,7 @@ We can explain and understand the Random forest model using explainable AI modul
 I saved the final tuned Random Forest model and deployed it using Flask web app. Flask is a micro web framework written in Python.  It is designed to make getting started quick and easy, with the ability to scale up to complex applications. I saved the shap value explainer tuned using random forest model to show shap plots in app. I have also utilized the cox-proportional hazard model to show survival curve and hazard curve, and to calculate expected customer lifetime value. 
 
 The final app shows churning probability, gauge chart of how severe a customer is and shap values based on customer's data. The final app layout can be seen above.  
+
 
 
 
