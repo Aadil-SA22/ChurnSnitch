@@ -24,7 +24,7 @@ ChurnSnitch use churn prediction models that predict customer churn by assessing
 In this project I aim to perform customer survival analysis and build a model which can predict customer churn. I also aim to build an app which can be used to understand why a specific customer would stop the service and to know his/her expected lifetime value.  
 
 ## Final ChurnSnitch
-<img src=https://github.com/archd3sai/Customer-Survival-Analysis-and-Churn-Prediction/blob/master/app-pic.png>
+<img src=https://github.com/Aadil-SA22/ChurnSnitch/blob/675b5742708c02556baed35145a3e1a9a8a9f6e8/Images/Churnsnitch_homepage.png>
 
 ## Project Organization
 ```
@@ -236,6 +236,7 @@ We can explain and understand the Random forest model using explainable AI modul
 
 ![](https://github.com/archd3sai/Customer-Churn-Analysis-and-Prediction/blob/master/Images/shap.png)
  
+
 
 
 
